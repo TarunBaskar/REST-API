@@ -11,7 +11,7 @@ import com.example.demo.repository.EmployeeRepository;
 @Service
 public class EmployeeService {
 	@Autowired
-	EmployeeRepository repository;
+	EmployeeRepository repository;     
 	
 	public String addEmployee(Employee employee) {
 		repository.save(employee);
